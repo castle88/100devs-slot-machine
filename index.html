@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel='stylesheet' href="style.css">
+	<title>Slot Machine</title>
+</head>
+<body>
+	<div class='machineContainer'>
+		<h2 id="winner"></h2>
+		<div class="machine">
+			<div class="display">
+				<div id='display1' class="displayScreen"></div>
+				<div id='display2' class="displayScreen"></div>
+				<div id='display3' class="displayScreen"></div>
+			</div>
+			<div class="betContainer">
+				<div id='infoWagAdd' class="displayAmount wager wagerAdd">+10</div>
+				<div id='infoWagDec' class="displayAmount wager wagerDec">-10</div>
+			</div>
+			<div class="info">
+				<div id='infoBank' class="displayAmount currentAmount">Bankroll</div>
+				<div id='betTotal' class="displayAmount bet"></div>
+				<div id='infoWin' class="displayAmount winnings"></div>
+			</div>
+		</div>
+		<div id='leverAction' class="lever">
+	 		<div class="handle"></div>
+			<div class="arm"></div>
+			<div class="fulcrum"></div>
+		</div>
+		<h2 id='bust'></h2>
+	</div>
+	<script src='main.js'></script>
+</body>
+</html>

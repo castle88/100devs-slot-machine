@@ -1,0 +1,110 @@
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+.machineContainer{
+	min-height: 100vh;
+	min-width: 100vw;
+	background:lightblue;
+	display:flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	padding-top:10rem;
+}
+#winner, #bust{
+	margin:2rem;
+}
+.machine{
+	background:silver;
+	min-height:300px;
+	min-width:375px;
+	padding:20px;
+	border-radius:15px;
+}
+.display{
+	display:flex;
+	justify-content: space-around;
+	min-width: 320px;
+	margin-bottom: 5rem;	
+}
+.displayScreen{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100px;
+	min-width:100px;
+	background:white;
+	border-radius: 7px;
+	font-size:50px;
+}
+.info{
+	min-height: 70px;
+	min-width: 320px;
+	background:white;
+	border-radius: 7px;
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.displayAmount{
+	min-width: 80px;
+	height:50px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	font-family: sans-serif;
+	padding:5px;
+}
+.betContainer{
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom:20px;
+}
+.wagerAdd{
+	background:green;
+}
+.wagerDec{
+	background:red;
+}
+.wager{
+	border-radius:50%;
+	min-width: 50px;
+}
+.wager:hover{
+	cursor: pointer;
+}
+.lever{
+	position: relative;
+	bottom:250px;
+	left:200px;
+	height:150px;
+	width:25px;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.lever:hover{
+	cursor: pointer;
+}
+.handle{
+	height:15%;
+	width:100%;
+	background:red;
+	border-radius:50%;
+}
+.arm{
+	height:55%;
+	width:50%;
+	background:silver;
+}
+.fulcrum{
+	height:30%;
+	width: 100%;
+	background:rgb(129, 129, 129);
+	border-radius:7px;
+}
